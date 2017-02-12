@@ -1,0 +1,32 @@
+.root {
+	-fx-spacing: 30;
+	-fx-background-color: #B3E5FC;
+	-fx-padding: 10;
+}
+
+.label {
+    -fx-font-size: 12px;
+   	-fx-font-weight: bold;
+}
+
+.button {
+    -fx-background-color: #29B6F6;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 14px;
+    -fx-background-radius: 4;
+    -fx-padding: 10px 20px 10px 20px;
+}
+
+ #buttonSell {
+    -fx-background-color: #01579B;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 14px;
+    -fx-background-radius: 4;
+    -fx-padding: 10px 20px 10px 20px;
+}
+
+.text-field {
+    -fx-background-color: #E1F5FE;
+    -fx-text-fill: black;
+}
+}

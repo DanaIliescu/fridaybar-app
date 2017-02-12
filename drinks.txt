@@ -1,0 +1,5 @@
+JackDaniels 100 78 750 41.0
+Somersby 45 50 330 4.5
+Cola 35 90 330 0.0
+WhiteRussian 60 48 330 20.0
+Mojito 60 50 250 20.0

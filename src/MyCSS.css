@@ -1,0 +1,78 @@
+.root {
+	-fx-spacing: 30;
+	-fx-background-color: #B3E5FC;
+	-fx-padding: 10;
+}
+
+ #title-label {
+	-fx-text-fill: #01579B;
+    -fx-font-size: 20px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 10, 0.0, 0, 5);
+}
+
+ #title-label2 {
+    -fx-font-family: "Big Caslon";
+	-fx-font-size: 17px;
+	-fx-text-fill: #01579B;
+	-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 10, 0.0, 0, 5);
+}
+
+.label {
+    -fx-font-size: 12px;
+   	-fx-font-weight: bold;
+}
+
+.button {
+    -fx-background-color: #29B6F6;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 14px;
+    -fx-background-radius: 4;
+    -fx-padding: 10px 20px 10px 20px;
+}
+
+ #buttonSell {
+    -fx-background-color: #01579B;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 14px;
+    -fx-background-radius: 4;
+    -fx-padding: 10px 20px 10px 20px;
+}
+
+.text-field {
+    -fx-background-color: #E1F5FE;
+    -fx-text-fill: black;
+}
+
+.table-view{
+   -fx-background-color: transparent;
+}
+
+
+.table-view .column-header-background{
+    -fx-background-color: linear-gradient(#035AA6 0%, #5AC0FF 100%);
+}
+
+.table-view .column-header-background .label{
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+
+.table-view .table-cell{
+    -fx-text-fill: white;
+}
+
+.table-row-cell{
+    -fx-background-color: -fx-table-cell-border-color, #5AC0FF;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #6F96A6;
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+}
